@@ -1,5 +1,5 @@
 
-let endereco = "https://api.groq.com/openai/v1"
+let endereco = "https://api.groq.com/openai/v1/chat/completions -s \"
 
 let prompt = `Você é um designer web premiado e Programador. 
 Crie uma landing page COMPLETA e VISUALMENTE IMPRESSIONANTE para o negócio descrito.
@@ -37,7 +37,7 @@ async function gerarCodigo() {
             "Authorization": "Bearer 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"
         },
         body: JSON.stringify({
-            "model": "meta-llama/llama-prompt-guard-2-22m",
+            "model": "llama-3.3-70b-versatile",
             "messages": [
                 // user = usuário - a pessoa que está mexendo no site pede
                 // system = quem a IA deve ser
