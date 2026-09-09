@@ -37,7 +37,7 @@ async function gerarCodigo() {
             "Authorization": "Bearer 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"
         },
         body: JSON.stringify({
-            "model": "meta-llama/llama-prompt-guard-2-22m",
+            "model": "openai/gpt-oss-120b",
             "messages": [
                 // user = usuário - a pessoa que está mexendo no site pede
                 // system = quem a IA deve ser
