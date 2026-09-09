@@ -1,5 +1,5 @@
 
-let endereco = "https://api.groq.com/openai/v1/responses"
+let endereco = "https://api.groq.com/openai/v1"
 
 let prompt = `Você é um designer web premiado e Programador. 
 Crie uma landing page COMPLETA e VISUALMENTE IMPRESSIONANTE para o negócio descrito.
